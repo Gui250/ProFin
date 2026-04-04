@@ -1,7 +1,10 @@
 @import "tailwindcss";
 
-* {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
+@keyframes shine {
+  0% {
+    left: -60%;
+  }
+  100% {
+    left: 130%;
+  }
 }
