@@ -2,6 +2,8 @@ import Cards from "../Cards/Cards";
 import VectorIcon from "../../assets/Vector.svg";
 import TargetIcon from "../../assets/Target.svg";
 import GroupIcon from "../../assets/Group 2.svg";
+
+//Area 2 
 export default function TextCards() {
   return (
     <section className="bg-[#F5F4F1] font-outfit text-center py-[3.125rem] px-4">
