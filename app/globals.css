@@ -1,10 +1,28 @@
 @import "tailwindcss";
 
-@keyframes shine {
-  0% {
-    left: -60%;
-  }
-  100% {
-    left: 130%;
-  }
+:root {
+  --background: #f7f4ee;
+  --background-strong: #f1ece4;
+  --surface: #ffffff;
+  --surface-muted: #f5f4f1;
+  --border: #e6e0d6;
+  --foreground: #111111;
+  --muted: #6d6c6a;
+  --primary: #3d8a5a;
+  --primary-soft: #c8f0d8;
+  --primary-deep: #2c6c45;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+body {
+  background: #fbfaf6;
+  color: var(--foreground);
+}
+
+::selection {
+  background: rgba(61, 138, 90, 0.18);
 }
